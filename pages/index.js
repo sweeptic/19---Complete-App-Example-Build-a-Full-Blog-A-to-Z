@@ -1,11 +1,14 @@
-export default function HomePage() {}
+import FeaturedPosts from '../components/home-page/featured-posts';
+import HeroPage from '../components/home-page/hero';
 
-// 1) Hero
-// 2) Featured Posts
+export default function HomePage() {
+  // 1) Hero
+  // 2) Featured Posts
 
-return (
-  <>
-    <Hero />
-    <FeaturedPosts />
-  </>
-);
+  return (
+    <>
+      <HeroPage />
+      <FeaturedPosts />
+    </>
+  );
+}

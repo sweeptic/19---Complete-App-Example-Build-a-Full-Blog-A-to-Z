@@ -1,3 +1,3 @@
-export default function FeaturedPostPage() {
+export default function FeaturedPosts() {
   return <div>FeaturedPostPage</div>;
 }

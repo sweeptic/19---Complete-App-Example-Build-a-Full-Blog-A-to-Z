@@ -1,5 +1,9 @@
-// This is a slug
-// /posts/getting-started-with-nextjs
-export default function PostDetailPage() {
-  return <div>post detail page</div>;
+import PostContentPage from '../../components/posts/post-detail/post-content';
+
+export default function PostDetailPage(props) {
+  return (
+    <div>
+      <PostContentPage />
+    </div>
+  );
 }

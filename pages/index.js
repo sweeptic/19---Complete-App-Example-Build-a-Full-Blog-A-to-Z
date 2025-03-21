@@ -1,7 +1,7 @@
 import FeaturedPosts from '../components/home-page/featured-posts';
 import HeroPage from '../components/home-page/hero';
 
-const DUMMY_POSTS = [
+export const DUMMY_POSTS = [
   {
     title: 'Getting Started with NextJS',
     image: 'getting-started-nextjs.png',

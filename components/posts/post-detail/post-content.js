@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import classes from './post-content.module.css';
 import PostHeaderPage from './post-header';
 import ReactMarkdown from 'react-markdown';

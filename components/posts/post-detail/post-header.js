@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import classes from './post-header.module.css';
 
 export default function PostHeaderPage(props) {

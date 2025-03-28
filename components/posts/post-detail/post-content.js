@@ -1,7 +1,7 @@
-import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
+
 import classes from './post-content.module.css';
 import PostHeaderPage from './post-header';
-import ReactMarkdown from 'react-markdown';
 
 export default function PostContentPage(props) {
   const { post } = props;

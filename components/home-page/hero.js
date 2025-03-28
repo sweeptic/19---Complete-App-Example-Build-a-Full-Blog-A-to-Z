@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import classes from './hero.module.css';
 
 export default function HeroPage() {
